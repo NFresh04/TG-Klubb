@@ -16,13 +16,13 @@ body {
 }
 
 .namn {
-  font-size: 1.5rem;
+  font-size: 3rem;
   margin: 0.5rem;
 }
 
 .navbar-links ul {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
   display: flex;
 }
 
@@ -33,7 +33,7 @@ body {
 .navbar-links li a {
   text-decoration: none;
   color: white;
-  padding: 1rem;
+  padding: 25px;
   display: block;
 }
 
@@ -89,4 +89,9 @@ body {
   .navbar-links .active {
     display: flex;
   }
+}
+
+section#home {
+  background: url("https://www.technistone.com/color-range/image-slab/Starlight%20Black_SLAB_web.jpg")
+    no-repeat center center/cover;
 }
